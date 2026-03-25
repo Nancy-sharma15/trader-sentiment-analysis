@@ -140,11 +140,11 @@ trader-sentiment-analysis/
 
 **Role:** Data Science / Analytics Intern  
 **Focus:** Trader Behavior Insights  
+**Name:** Nancy Sharma
 
- # Final Note
+##  Key Findings 
 
-This project demonstrates:
-- Data cleaning & preprocessing
-- Analytical reasoning
-- Insight generation
-- Practical strategy design
+- Yes, trader performance differs significantly between Fear and Greed regimes.
+- Traders earn higher PnL during Fear phases.
+- Behavior changes: higher trading activity and larger position sizes during Fear.
+
