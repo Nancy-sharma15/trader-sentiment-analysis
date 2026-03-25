@@ -23,7 +23,10 @@ The goal is to identify patterns that can help design **data-driven trading stra
   - Timestamp
   - Closed PnL
 
-       >  Note: Leverage data was not available in the dataset.
+## Limitations
+
+- Leverage data not available
+- Analysis assumes daily aggregation (intraday behavior not captured)
 
 ##  Methodology
 
@@ -101,13 +104,15 @@ Traders were segmented into:
   - Average size
   - Long/short ratio
 
-## Interactive Dashboard
-- Built using **Streamlit**
-- Features:
-  - Sentiment filter
-  - KPI metrics
-  - PnL distribution
-  - Behavior analysis
+##  Interactive Dashboard
+
+A Streamlit dashboard was built to:
+- Explore sentiment-wise performance
+- Analyze trader behavior dynamically
+- Visualize PnL distributions
+
+Run using:
+streamlit run dashboard.py
 
 ## How to Run
 
@@ -136,6 +141,12 @@ trader-sentiment-analysis/
 - Fear-based markets provide better profit opportunities
 - Behavioral adjustments can improve trading performance
 
+##  Strategy Recommendations
+
+- During Fear: Increase position size and focus on high-conviction trades
+- During Greed: Reduce exposure despite higher win rates
+- High-frequency traders should reduce activity during Extreme Fear to avoid overtrading
+- 
 # Submission
 
 **Role:** Data Science / Analytics Intern  
